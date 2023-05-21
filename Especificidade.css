@@ -1,0 +1,10 @@
+body{
+   margin:0;
+   
+}
+.container{  /*O container é mais especifico*/
+       color:red;    
+}
+div{   /* é uma especificação geral*/
+    color:blue;
+}

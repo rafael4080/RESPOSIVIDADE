@@ -1,0 +1,17 @@
+body{
+  margin:0;
+  color:pink;
+}
+div{
+    background-color:#ddd;
+    height: 200px;
+    font-size:23px;
+    color:red;
+    border:5px solid green;
+    margin:10px;
+}
+/*div strong{
+     color:blue;
+     font-size:70px;
+     border:1px solid red;
+}*/

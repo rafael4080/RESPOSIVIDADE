@@ -1,0 +1,17 @@
+html{
+   font-size:16px;
+}
+body{
+     /*font-size:20px;*/
+}
+h1{
+    font-size:3rem;   /*   3   vezes 20  = 60 px */
+}
+.box{
+      font-size:2rem;  /*  2  vezes   20 = 40px;*/
+}
+.box-interno{  /* Observação 2 10em no box interno será baseado no 2em do box  que será de 40 px será um efeito cascata.*/
+     background-color:#9999;
+     width:10rem;
+     height: 10rem;
+}

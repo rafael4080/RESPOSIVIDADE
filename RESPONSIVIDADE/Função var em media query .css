@@ -1,0 +1,25 @@
+:root{
+  --bg-color:#b6a5a5;
+ /* --bg-second:#fff000;*/
+  --bg-font:#000;
+  --font-size:23px;
+}
+body{
+  background-color:var(--bg-color);
+  font-size:var(--font-size);
+}
+h1{
+color:var(--bg-second,#000fff);
+}
+.container{
+  background-color:var(--bg-second,#000fff);
+  color:var(--bg-font);
+  
+}
+@media(max-width:450px){
+     :root{/*Não sobrescreve o valor fixo ou criar duas variaveis para fazer a mesma coisa*/
+          --font-size:14px;
+          --bg-color:#00ffff;
+     }
+
+}

@@ -1,0 +1,17 @@
+:root{
+         --bg-color:#b6a5a5;
+        /* --bg-second:#fff000;*/
+         --bg-font:#000;
+         --ft-size:70px;
+}
+body{
+         background-color:var(--bg-color);
+}
+h1{
+       color:var(--bg-second,#000fff);
+}
+.container{
+         background-color:var(--bg-second,#000fff);
+         color:var(--bg-font);
+         font-size:var(--ft-size);
+}

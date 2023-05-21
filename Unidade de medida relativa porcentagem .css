@@ -1,0 +1,10 @@
+.box{
+     background-color:#999;
+     width: 50%;
+     height: 400px;
+}
+.box-interno{
+     background-color:#333;
+     width: 50%;
+     height: 50%;
+}
